@@ -64,7 +64,9 @@ body {
     position: relative;
     margin: 45px 440px 0px 0px;
 }
-.user-circle {
+.content .user-circle {
+    position: relative;
+    right: 10px;
     height: 100px;
     width: 100px;
 }
