@@ -1,0 +1,639 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Prompt', sans-serif;
+}
+.nav {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100%;
+}
+.nav-content {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    margin: auto;
+    font-size: 40px;
+    height: 100px;
+    width: 70%;
+}
+.nav-content:hover {
+    color: white;
+}
+.home, .profile, .connect {
+    position: relative;
+    left: 50px;
+    text-decoration: none;
+    margin: 30px;
+    color: rgb(187, 184, 184);
+    font-size: 20px;
+}
+.home:hover, .profile:hover, .connect:hover {
+    color: white;
+}
+.btn {
+    background-color: rgb(0, 162, 255);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 120px;
+    font-size: 20px;
+    margin-left: 1000px;
+}
+.btn:hover {
+    color: rgb(0, 68, 255);
+}
+.user-card {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 75%, rgba(80,188,255,1) 5%);
+    border: solid gray 3px;
+    background-color: rgb(218, 225, 236);
+    height: 380px;
+    width: 636px;
+    margin: 40px 0px 30px 383px;
+    float: left;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 45px 440px 0px 0px;
+}
+.user-circle {
+    height: 100px;
+    width: 100px;
+}
+.jane {
+    position: relative;
+    font-size: 40px;
+    left: 35px;
+}
+.marker {
+    position: relative;
+    top: 10px;
+    right: 45px;
+    height: 20px;
+}
+.city {
+    position: relative;
+    font-size: 20px;
+    bottom: 14px;
+    left: 15px;
+}
+.dev, .master {
+    inline-size: 300px;
+    position: relative;
+    font-size: 16px;
+    left: 100px;
+    padding: 5px;
+}
+.gear {
+    position: relative;
+    height: 20px;
+    top: 15px;
+    right: 42px;
+}
+.edit {
+    position: relative;
+    bottom: 6px;
+    left: 20px;
+    color: blue;
+}
+.edit:hover {
+    color: rgb(0, 132, 255);
+}
+.right-sidebar {
+    background-color: rgb(244, 246, 248);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 67%, rgba(94,94,102,1) 67%);
+    border: solid gray 3px;
+    height: 215px;
+    width: 1045px;
+    margin-top: 40px;
+    margin-left: 1075px;
+}
+.connection-requests {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+.right-sidebar .number {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 4px 20px 0px 0px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background: rgb(207, 197, 197)
+}
+.right-sidebar .request {
+    color: white;
+}
+.user-circle {
+    height: 50px;
+    width: 50px;
+}
+.todd {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    left: 260px;
+}
+.todd-2 {
+    position: relative;
+    left: 90px;
+    font-size: 30px;
+}
+#tick-mark {
+    background-color: rgb(158, 152, 152);
+    border: solid rgb(158, 152, 152);
+    border-radius: 50%;
+    border-width: 10px;
+    position: relative;
+    display: inline-block;
+    left: 190px;
+    width: 30px;
+    height: 30px;
+}
+#tick-mark::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 6px;
+    background-color: whitesmoke;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+#tick-mark::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 100%;
+    background-color: whitesmoke;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+.x-markbox {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 35px;
+    left: 655px;
+    background-color: rgb(158, 152, 152);
+}
+.x-mark {
+    color: white;
+    font-weight: 900px;
+    position: relative;
+    bottom: 102px;
+    left: 665px;
+    font-size: 50px;
+}
+.phil {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    left: 260px;
+}
+.phil .user-circle {
+    position: relative;
+    bottom: 105px;
+}
+.phil-2 {
+    position: relative;
+    left: 92px;
+    bottom: 100px;
+    font-size: 30px;
+}
+#tick-mark2 {
+    background-color: rgb(158, 152, 152);
+    border: solid rgb(158, 152, 152);
+    border-radius: 50%;
+    border-width: 10px;
+    position: relative;
+    display: inline-block;
+    left: 211px;
+    bottom: 105px;
+    width: 30px;
+    height: 30px;
+}
+#tick-mark2::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 6px;
+    background-color: whitesmoke;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+#tick-mark2::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 100%;
+    background-color: whitesmoke;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+.x-markbox2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 140px;
+    left: 655px;
+    background-color: rgb(158, 152, 152);
+}
+.x-mark2 {
+    color: white;
+    font-weight: 900px;
+    position: relative;
+    bottom: 206px;
+    left: 665px;
+    font-size: 50px;
+}
+.right-sidebar2 {
+    background-color: rgb(244, 246, 248);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 80%, rgba(94,94,102,1) 80%); 
+    border: solid gray 3px;
+    height: 375px;
+    width: 1045px;
+    margin-top: 40px;
+    margin-left: 1075px;
+}
+.connection-requests2 {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+.right-sidebar2 .number2 {
+    background-color: white;
+    height: 60px;
+    width: 140px;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 4px 20px 0px 0px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background: rgb(207, 197, 197)
+}
+.request2 {
+    color: white;
+}
+.adrien {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    top: 15px;
+    left: 260px;
+}
+.adrien .user-circle {
+    position: relative;
+    bottom: 5px;
+}
+.adrien-2 {
+    position: relative;
+    left: 100px;
+    bottom: 0px;
+    font-size: 30px;
+}
+#tick-mark3 {
+    background-color: rgb(158, 152, 152);
+    border: solid rgb(158, 152, 152);
+    border-radius: 50%;
+    border-width: 10px;
+    position: relative;
+    display: inline-block;
+    left: 165px;
+    bottom: 5px;
+    width: 30px;
+    height: 30px;
+}
+#tick-mark3::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 6px;
+    background-color: whitesmoke;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+#tick-mark3::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 100%;
+    background-color: whitesmoke;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+.x-markbox3 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 40px;
+    left: 655px;
+    background-color: rgb(158, 152, 152);
+}
+.x-mark3 {
+    color: white;
+    font-weight: 900px;
+    position: relative;
+    bottom: 106px;
+    left: 665px;
+    font-size: 50px;
+}
+.anne {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    bottom: 105px;
+    left: 260px;
+}
+.anne .user-circle {
+    position: relative;
+    bottom: 5px;
+}
+.anne-2 {
+    position: relative;
+    left: 100px;
+    bottom: 0px;
+    font-size: 30px;
+}
+#tick-mark4 {
+    background-color: rgb(158, 152, 152);
+    border: solid rgb(158, 152, 152);
+    border-radius: 50%;
+    border-width: 10px;
+    position: relative;
+    display: inline-block;
+    left: 195px;
+    bottom: 5px;
+    width: 30px;
+    height: 30px;
+}
+#tick-mark4::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 6px;
+    background-color: whitesmoke;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+#tick-mark4::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 100%;
+    background-color: whitesmoke;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+.x-markbox4 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 160px;
+    left: 655px;
+    background-color: rgb(158, 152, 152);
+}
+.x-mark4 {
+    color: white;
+    font-weight: 900px;
+    position: relative;
+    bottom: 225px;
+    left: 665px;
+    font-size: 50px;
+}
+.alayne {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    bottom: 223px;
+    left: 260px;
+}
+.alayne .user-circle {
+    position: relative;
+    bottom: 5px;
+}
+.alayne-2 {
+    position: relative;
+    left: 100px;
+    bottom: 0px;
+    font-size: 30px;
+}
+#tick-mark5 {
+    background-color: rgb(158, 152, 152);
+    border: solid rgb(158, 152, 152);
+    border-radius: 50%;
+    border-width: 10px;
+    position: relative;
+    display: inline-block;
+    left: 169px;
+    bottom: 5px;
+    width: 30px;
+    height: 30px;
+}
+#tick-mark5::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 6px;
+    background-color: whitesmoke;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+#tick-mark5::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 100%;
+    background-color: whitesmoke;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+.x-markbox5 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 280px;
+    left: 657px;
+    background-color: rgb(158, 152, 152);
+}
+.x-mark5 {
+    color: white;
+    font-weight: 900px;
+    position: relative;
+    bottom: 345px;
+    left: 667px;
+    font-size: 50px;
+}
+.arry {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    bottom: 342px;
+    left: 260px;
+}
+.arry .user-circle {
+    position: relative;
+    bottom: 5px;
+}
+.arry-2 {
+    position: relative;
+    left: 100px;
+    bottom: 0px;
+    font-size: 30px;
+}
+#tick-mark6 {
+    background-color: rgb(158, 152, 152);
+    border: solid rgb(158, 152, 152);
+    border-radius: 50%;
+    border-width: 10px;
+    position: relative;
+    display: inline-block;
+    left: 202px;
+    bottom: 5px;
+    width: 30px;
+    height: 30px;
+}
+#tick-mark6::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 50%;
+    width: 6px;
+    background-color: whitesmoke;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+#tick-mark6::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 100%;
+    background-color: whitesmoke;
+    content: "";
+    transform: translateX(10px) rotate(-45deg);
+    transform-origin: left bottom;
+}
+.x-markbox6 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 397px;
+    left: 657px;
+    background-color: rgb(158, 152, 152);
+}
+.x-mark6 {
+    color: white;
+    font-weight: 900px;
+    position: relative;
+    bottom: 465px;
+    left: 667px;
+    font-size: 50px;
+}
+.right-sidebar3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 75px;
+    left: 1075px;
+    background-color: rgb(255, 255, 255);
+    border: solid gray 3px;
+    height: 75px;
+    width: 1045px;
+}
+.right-sidebar3 a {
+    position: relative;
+    right: 199px;
+    font-size: 25px;
+    color: blue;
+}
+.bottom-sidebar {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 300px;
+    left: 383px;
+    background-color: rgb(244, 246, 248);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 80%, rgba(94,94,102,1) 80%); 
+    border: solid gray 3px;
+    height: 220px;
+    width: 638px;
+}
+.bottom-sidebar .edu {
+    display: flex;
+    justify-content: left;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.head {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.date {
+    color: grey;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.qualifications {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.bottom-bar {
+    position: fixed;
+    bottom: 0px;
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+    border: solid 4px rgb(73, 72, 72);
+}
